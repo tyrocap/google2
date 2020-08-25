@@ -8,7 +8,6 @@ import Search from './Search';
 function Home() {
   return (
     <div className="home">
-      <h1>This is a Home Page</h1>
       <div className="home_header">
         <div className="home_headerLeft">
           <Link to="about">About</Link>
