@@ -82,7 +82,6 @@ function SearchPage() {
               <a href={item.link}>{item.displayLink}>
                 <h1>{item.title}</h1>
               </a>
-
             </div>
           ))}
         </div>
@@ -90,5 +89,9 @@ function SearchPage() {
     </div>
   );
 }
+
+
+
+
 export default SearchPage;
 
